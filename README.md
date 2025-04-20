@@ -14,3 +14,8 @@ Preprocess the data exactly the same way as it was done for training.
 run the model.predict cell. so it could run the predictions.
 
 Use the output results.
+
+## Note:
+- Same training file can be used to train on other data with similar format.
+- Model can be safely saved using the same joblib.dump cell.
+  
